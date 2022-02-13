@@ -2476,6 +2476,7 @@ select.mobile-device {
   float: left;
   width: 50%;
   text-align: center;
+  column-gap: 40px
 }
 
 /* Clear floats after the columns */
@@ -2487,17 +2488,4 @@ select.mobile-device {
 
 .div-1 {
   Background-color: #000000
-}
-
-ul {
-  list-style: none; /* Remove default bullets */
-}
-
-ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: white; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */ 
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
